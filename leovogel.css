@@ -1,0 +1,30 @@
+/* Scrolling Logos */
+
+  .notion-callout.bg-green-light .notion-semantic-string{
+    text-align: center;
+    display: block;
+  }
+
+  .notion-callout.bg-green-light{
+    background-color: transparent;
+  }
+
+  .notion-callout.bg-green-light .notion-callout__icon{
+    display: none;
+  }
+
+/*     Hide Widget Embed Logo    */
+
+  .notion-callout.bg-green-light .notion-embed{
+    height: 140px;
+  }
+
+  @media only screen and (max-width:1023px) {
+    
+    .notion-callout.bg-green-light .notion-embed {
+      height: 60px;
+    }
+    
+  }
+
+/*     -------------------------MY SITE ONLY ABOVE-----------------------------    */

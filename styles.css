@@ -37,6 +37,9 @@ h1, h2, h3 {
   margin-top: 48px; }
 
 /* Layout */
+.super-content.max-width {
+  max-width: 1200px !important; }
+
 .parent-page__portfolio .super-content {
   padding-right: 0px; }
 
