@@ -1,0 +1,85 @@
+/* TOC */
+@media (min-width:769px){
+  .notion-toggle.bg-orange{
+    display: none !important;
+  }
+}
+
+.notion-toggle.bg-orange .notion-toggle__summary .notion-semantic-string::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f03a";
+  }
+
+.notion-toggle.bg-orange .notion-toggle__summary .notion-semantic-string span{
+  display: none;
+}
+.notion-toggle.open.bg-orange .notion-toggle__summary .notion-semantic-string::after{
+  content: "On This Page";
+  margin-left: 16px;
+}
+
+.notion-toggle__trigger{
+  display: none;
+}
+
+.notion-header__title-wrapper{
+  display: none;
+}
+
+h1.notion-heading.bg-gray{
+  font-weight: 700;
+  padding: 2px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-size: var(--title-size);
+  line-height: var(--title-size);
+  min-height: 48px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-align: var(--header-title-align);
+  display: var(--header-display);
+  background-color: transparent;
+}
+
+.notion-table-of-contents.bg-gray{
+  background-color: transparent;
+}
+
+.notion-table-of-contents li:first-child{
+  display: none;
+}
+
+.notion-table-of-contents.bg-gray::before{
+  content: "On This Page";
+  color: darkgrey;
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item{
+  border-radius: 4px;
+}
+
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item > a > div{
+  padding: 8px;
+}
+
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item:hover{
+  background-color: #f0f0f0;
+}
+
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item .notion-semantic-string:not(.no-border){
+  background-image: none;
+}
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item>a{
+  color: #767676;
+}
+.notion-table-of-contents.bg-gray .notion-table-of-contents__item>a:hover{
+/*text-decoration: underline;*/
+/*text-decoration-color: lightgrey;*/
+  color: #37352f;
+}

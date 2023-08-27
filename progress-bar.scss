@@ -5,8 +5,7 @@
 
 .notion-equation {
   --scrollAmount: 0%;
-/*background-image: linear-gradient(120deg, #50b3e4 0%, #019edb 100%);*/
-  background-color: var(--brand-color-primary);
+  background-image: linear-gradient(120deg, var(--color-gray) 0%, var(--color-gray) 100%);
   width: var(--scrollAmount);
   height: 8px;
   position: fixed !important;

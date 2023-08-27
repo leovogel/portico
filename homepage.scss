@@ -1,0 +1,50 @@
+/* HOMEPAGE */
+
+/*     Hide Project Icon & Quote Title    */
+.notion-quote.bg-yellow>.notion-semantic-string, .notion-quote.bg-gray>.notion-semantic-string, .notion-property__title__icon-wrapper{
+  display: none !important;
+}
+
+
+/*     List Formatting    */
+.notion-quote.bg-yellow .notion-collection-gallery, .notion-quote.bg-gray .notion-collection-gallery{
+  display: block;
+}
+
+.notion-collection-card{
+  margin-bottom: 24px;
+}
+
+/*     Remove Border and Background    */
+.notion-collection-gallery{
+  padding: 0px;
+}
+
+.notion-quote.bg-yellow, .notion-quote.bg-gray {
+  background: transparent;
+  border-left: none;
+  padding: initial;
+  margin: 0px;
+}
+
+/*     Case Formatting    */
+.notion-collection-card img{
+  border-radius: 8px;
+}
+
+.notion-collection-card{
+  width: 100%;
+  box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06) !important;
+  padding: 24px !important;
+  background: white;
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 8px !important;
+}
+
+.notion-quote.bg-yellow .notion-collection-card, .notion-quote.bg-gray .notion-collection-card{
+    display: grid; 
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: auto 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+  }

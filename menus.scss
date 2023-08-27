@@ -1,0 +1,17 @@
+/* Menu Items */
+.super-navbar__item-list li{
+  border-radius: 4px;
+  opacity: 1;
+}
+
+/* Menu Item Hover */
+.super-navbar__item-list li:hover{
+  background-color: var(--color-bg-gray);
+}
+
+/* Menu Dropdown Affordance */
+@media (min-width:860px){
+	.super-navbar__list:after{
+		content: "⇣";
+	}
+}
