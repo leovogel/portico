@@ -1,5 +1,27 @@
 @import url("https://leovogel.github.io/portico/progress-bar.css");
 
+/* Progress bar */
+.notion-equation span{
+  display: none;
+}
+
+.notion-equation {
+  --scrollAmount: 0%;
+  background-image: linear-gradient(120deg, var(--color-gray) 0%, var(--color-gray) 100%);
+  width: var(--scrollAmount);
+  height: 8px;
+  position: fixed !important;
+  left: 0px;
+  top: calc(var(--navbar-height) - 4px);
+  z-index: 20;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  pointer-events: none;
+  /*  background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
+  width: 100%; */
+}
+
 /* Menu Items */
 .super-navbar__item-list li{
   border-radius: 4px;
