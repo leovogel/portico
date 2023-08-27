@@ -1,9 +1,17 @@
+:root {
+    --content-width: 1500px;
+}
+
 @import 'menus';
+@import 'typography';
+@import 'layout';
 @import 'homepage';
+@import 'promo-banner';
 @import 'brown-toggles';
 @import 'progress-bar';
 @import 'scroll-to-top';
 @import 'table-of-contents';
+@import 'card-linkedin';
 
 /* IMAGE HOVER
 .notion-image:hover,

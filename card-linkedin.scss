@@ -1,0 +1,92 @@
+/* LinkedIn Card */
+
+.notion-callout.bg-gray-light{
+  display: inline-block;
+  background-color: transparent;
+  padding: 0px;
+  overflow: initial;
+  border-radius: 8px;
+  border: 1px solid #e9e5df;
+  margin: 0px;
+  margin-top: 12px;
+}
+
+.notion-callout.bg-gray-light .highlighted-background.bg-blue{
+  background: transparent;
+  padding: 4px 12px;
+  border: 1px solid #0a66c2;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.notion-callout.bg-gray-light .highlighted-background.bg-blue .notion-link{
+  color: #0a66c2 !important;
+  border-bottom: none;
+  opacity: 1;
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.notion-callout.bg-gray-light .highlighted-background.bg-blue:hover{
+  background-color: rgba(112,181,249,0.15) !important;
+  box-shadow: inset 0 0 0 1px #0a66c2;
+}
+
+.notion-callout.bg-gray-light .notion-callout.color-default-light img{
+  border-radius: 100px;
+}
+
+.notion-callout.bg-gray-light .notion-callout__content{
+  margin: 0px;
+}
+
+.notion-callout.bg-gray-light code{
+  padding: initial;
+  background: transparent;
+  font-size: .8rem;
+  font-family: initial;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.notion-callout.bg-gray-light code .highlighted-color.color-blue{
+  color: grey !important;
+}
+
+.notion-callout.bg-gray-light  .notion-callout {
+  background: transparent;
+  border: none;
+}
+
+.notion-callout.bg-gray-light  .notion-callout.bg-orange-light {
+  background-color: #e9e5df;
+  margin: 0px;
+  padding: 0px 8px;
+  border-radius: 0px;
+}
+
+.notion-callout.bg-gray-light .notion-callout__content > .notion-semantic-string, .notion-callout.bg-gray-light > .notion-callout__content > .notion-semantic-string, .notion-callout.bg-gray-light .notion-callout__icon{
+  display: none;
+}
+
+.notion-callout.bg-orange-light .notion-callout__icon{
+  display: initial;
+  margin: 12px 2px;
+}
+
+.notion-callout.bg-orange-light .notion-callout__icon span{
+  position: initial !important;
+  width: initial !important;
+  height: initial !important;
+}
+.notion-callout.bg-orange-light .notion-callout__icon img{
+  min-height: initial !important;
+  max-height: initial !important;
+  min-width: initial !important;
+  max-width: initial !important;
+  width: 80px !important;
+  height: 100% !important;
+  margin-left: 4px !important;
+  display: block !important;
+  object-fit: cover!important;
+}

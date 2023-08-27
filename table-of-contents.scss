@@ -1,4 +1,10 @@
 /* TOC */
+@media (max-width:769px){
+  .notion-table-of-contents.bg-gray{
+    display: none;
+  }
+}
+
 @media (min-width:769px){
   .notion-toggle.bg-orange{
     display: none !important;

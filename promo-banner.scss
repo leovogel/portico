@@ -1,0 +1,27 @@
+.promo-banner {
+    background: #019edb;
+    color: white;
+    padding: 10px!important;
+    font-weight: bold !important;
+    font-family: var(--promo-banner-font);
+    font-size: var(--promo-banner-font-size);
+    justify-content: center !important;
+    text-align: center !important;
+    letter-spacing: 1.8px !important;
+    text-decoration: none;
+}
+
+.promo-button {
+  /*Colors*/
+  background: none !important;
+  color: white !important;
+  
+  /*Spacing*/
+  padding: 0px !important;
+  border-radius: 0px !important;
+  
+  /*Others*/
+  cursor: pointer !important;
+  text-decoration: underline !important;
+  transition: 0.3s ease-in-out !important;
+}
