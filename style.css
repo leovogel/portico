@@ -1,4 +1,4 @@
-@import url("https://leovogel.github.io/portico/progress-bar.css");
+@import url("https://leovogel.github.io/portico/brown-toggles.css");
 
 /* Progress bar */
 .notion-equation span{
@@ -38,11 +38,6 @@
 	.super-navbar__list:after{
 		content: "⇣";
 	}
-}
-
-/* Hide Brown Toggles */
-.notion-toggle.bg-brown, .notion-callout.bg-brown-light {
-  display: none !important;
 }
 
 /* Hide Page Icons */
