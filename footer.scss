@@ -1,0 +1,11 @@
+.super-footer a{
+  text-decoration: underline;
+}
+
+.super-footer a:hover{
+  text-decoration-color: var(--color-text-blue);
+}
+
+.super-footer a[href="/undefined"]{
+  text-decoration: none;
+}

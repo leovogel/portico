@@ -9,10 +9,22 @@
 /*     List Formatting    */
 .notion-quote.bg-yellow .notion-collection-gallery, .notion-quote.bg-gray .notion-collection-gallery{
   display: block;
+  padding: 0px;
 }
 
 .notion-collection-card{
   margin-bottom: 24px;
+}
+
+/*    CARD FORMATTING     */
+.notion-quote .notion-collection-card{
+  width: 100%;
+  box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06) !important;
+  padding: 24px !important;
+}
+
+.notion-quote .notion-collection-card img{
+  border-radius: 8px;
 }
 
 /*     Remove Border and Background    */
@@ -20,11 +32,29 @@
   padding: 0px;
 }
 
-.notion-quote.bg-yellow, .notion-quote.bg-gray {
-  background: transparent;
+.notion-quote.bg-yellow, .notion-quote.bg-gray{
+  background: initial;
   border-left: none;
   padding: initial;
   margin: 0px;
+}
+
+/*     View Project Button    */
+.notion-quote.bg-yellow .notion-collection-card__property .notion-property__select .notion-pill,
+.notion-quote.bg-gray .notion-collection-card__property .notion-property__select .notion-pill{
+  border: 1px solid #019edb;
+  border-radius: 4px;
+  margin-top: 16px;
+  padding: 8px;
+  display: inline-block;
+  background-color: transparent;
+  color: #019edb;
+  font-size: .8rem;
+}
+
+ .notion-quote .notion-collection-card:hover .notion-pill{
+  background-color: #019edb !important;
+  color: white  !important;
 }
 
 /*     Case Formatting    */

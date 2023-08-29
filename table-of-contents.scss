@@ -1,4 +1,39 @@
 /* TOC */
+.notion-toggle.bg-orange .notion-toggle__summary .notion-semantic-string::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f03a";
+}
+
+.notion-toggle.bg-orange.open .notion-toggle__summary{
+  min-width: 120px;
+}
+
+.notion-toggle.bg-orange.open .notion-toggle__summary .notion-semantic-string{
+  width: 100%;
+}
+
+.notion-toggle.bg-orange.open .notion-toggle__summary .notion-semantic-string::before{
+  content: none;
+}
+
+.notion-toggle.bg-orange.open .notion-toggle__content::before{
+  content: "On This Page";
+  color: darkgrey;
+  display: block;
+  margin: 8px;
+  font-size: .8rem;
+}
+
+.notion-toggle.bg-orange.open .notion-toggle__summary::after{
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f00d";
+  margin: 5px;
+}
+
 @media (max-width:769px){
   .notion-table-of-contents.bg-gray{
     display: none;
@@ -19,12 +54,16 @@
     content: "\f03a";
   }
 
+.notion-toggle.open.bg-orange .notion-toggle__content{
+  padding: 0px !important;
+}
+
 .notion-toggle.bg-orange .notion-toggle__summary .notion-semantic-string span{
   display: none;
 }
 .notion-toggle.open.bg-orange .notion-toggle__summary .notion-semantic-string::after{
-  content: "On This Page";
-  margin-left: 16px;
+  content: "Close";
+  margin-left: 0px;
 }
 
 .notion-toggle__trigger{
@@ -85,7 +124,18 @@ h1.notion-heading.bg-gray{
   color: #767676;
 }
 .notion-table-of-contents.bg-gray .notion-table-of-contents__item>a:hover{
-/*text-decoration: underline;*/
-/*text-decoration-color: lightgrey;*/
   color: #37352f;
+}
+
+.notion-toggle.bg-orange .notion-table-of-contents__item .notion-semantic-string:not(.no-border){
+  background: none;
+}
+
+.notion-toggle.bg-orange .notion-table-of-contents{
+  margin: 0px;
+  padding: 0px;
+}
+
+.notion-toggle.bg-orange .notion-table-of-contents__item>a>div{
+  padding: 8px;
 }

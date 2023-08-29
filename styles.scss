@@ -1,17 +1,23 @@
 :root {
     --content-width: 1500px;
+    --color-text-blue: #017FB0;
 }
 
+@import 'code-to-migrate';
+@import 'progress-bar';
+@import 'card-linkedin';
+@import 'brown-toggles';
 @import 'menus';
+@import 'callout-links';
 @import 'typography';
+@import 'scroll-to-top';
 @import 'layout';
 @import 'homepage';
-@import 'promo-banner';
-@import 'brown-toggles';
-@import 'progress-bar';
-@import 'scroll-to-top';
 @import 'table-of-contents';
-@import 'card-linkedin';
+@import 'footer';
+
+/* MY SITE */
+@import 'promo-banner';
 
 
 /* IMAGE HOVER
@@ -21,5 +27,4 @@
     background: none !important;
     opacity: 1 !important;
 }
-
 */

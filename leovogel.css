@@ -1,14 +1,14 @@
 /* Scrolling Logos */
-
+  
   .notion-callout.bg-green-light .notion-semantic-string{
     text-align: center;
     display: block;
   }
-
+  
   .notion-callout.bg-green-light{
     background-color: transparent;
   }
-
+  
   .notion-callout.bg-green-light .notion-callout__icon{
     display: none;
   }
@@ -18,7 +18,7 @@
   .notion-callout.bg-green-light .notion-embed{
     height: 140px;
   }
-
+  
   @media only screen and (max-width:1023px) {
     
     .notion-callout.bg-green-light .notion-embed {
@@ -26,8 +26,5 @@
     }
     
   }
-
-/* Promo Banner - Homepage Only Fix */
-.promo-banner{display: none;}
 
 /*     -------------------------MY SITE ONLY ABOVE-----------------------------    */

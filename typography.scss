@@ -1,8 +1,36 @@
+/*Typography*/
 h1, h2, h3{
   line-height: 1.45;
   font-weight: normal !important;
 }
 
 .notion-text__content .notion-semantic-string{
+  line-height: 1.7;
+}
+
+.notion-semantic-string{
+      line-height: 1.375;
+}
+
+body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+    font-size: 16px !important;
+}
+
+h1.notion-heading{
+    font-weight: 500 !important;
+}
+
+@media only screen and (min-width:720px) { 
+  h1.notion-heading{
+    font-size: 2.5rem;
+    line-height: 1.7;
+  }
+}
+
+p {
+  font-size: 1.15rem !important;
   line-height: 1.7;
 }
