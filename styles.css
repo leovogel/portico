@@ -38,9 +38,6 @@ notion-header__icon-wrapper .has-icon-image,
 .notion-header__title {
   display: none !important; }
 
-.notion-heading {
-  font-weight: 300 !important; }
-
 .notion-callout.bg-purple-light {
   background-color: transparent !important;
   border: none;
@@ -305,7 +302,6 @@ body .uwy.userway_p5 .uai {
 
 .notion-equation {
   --scrollAmount: 0%;
-  /*background-image: linear-gradient(120deg, var(--color-gray) 0%, var(--color-gray) 100%);*/
   background-color: var(--brand-color-primary);
   width: var(--scrollAmount);
   height: 8px;
@@ -317,6 +313,7 @@ body .uwy.userway_p5 .uai {
   border-radius: 0px;
   padding: 0px;
   pointer-events: none;
+  /*background-image: linear-gradient(120deg, var(--color-gray) 0%, var(--color-gray) 100%);*/
   /*background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);*/
   /*width: 100%; */ }
 
@@ -449,8 +446,11 @@ body {
   text-rendering: optimizeLegibility !important;
   font-size: 16px !important; }
 
+.notion-heading {
+  font-weight: 300; }
+
 h1.notion-heading {
-  font-weight: 500 !important; }
+  font-weight: 500; }
 
 @media only screen and (min-width: 720px) {
   h1.notion-heading {
