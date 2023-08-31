@@ -1,9 +1,10 @@
+/* Version 0.1 */
+
 :root {
     --content-width: 1500px;
     --color-text-blue: #017FB0;
 }
 
-@import 'code-to-migrate';
 @import 'progress-bar';
 @import 'card-linkedin';
 @import 'brown-toggles';
@@ -15,6 +16,7 @@
 @import 'homepage';
 @import 'table-of-contents';
 @import 'footer';
+@import 'code-to-migrate';
 
 /* MY SITE */
 @import 'promo-banner';
