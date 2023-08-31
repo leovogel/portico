@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Version 0.41 */
+/* Version 0.42 */
 /* Progress bar */
 .notion-equation span {
   display: none;
@@ -341,6 +341,14 @@ h1.notion-heading.bg-gray {
 }
 
 /*     List Formatting    */
+/* FEATURED */
+.notion-quote.bg-yellow .notion-collection-card {
+  box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.4) !important;
+}
+.notion-quote.bg-yellow .notion-collection-card:hover {
+  box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.55) !important;
+}
+
 .notion-quote.bg-yellow .notion-collection-gallery, .notion-quote.bg-gray .notion-collection-gallery {
   display: block;
   padding: 0px;
@@ -476,15 +484,6 @@ h1.notion-heading.bg-gray {
   background: none !important;
   opacity: 1 !important;
   box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, 0.1) !important;
-}
-
-.notion-quote.bg-yellow .notion-collection-card {
-  margin-bottom: 0px;
-  box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.4) !important;
-}
-
-.notion-quote.bg-yellow .notion-collection-card:hover {
-  box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.55) !important;
 }
 
 /* Table of Contents for Case Studies*/
