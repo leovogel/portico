@@ -307,7 +307,7 @@ h1.notion-heading.bg-gray {
     min-width: 500px !important;
     margin: 0 auto !important;
     z-index: 10 !important;
-    max-width: var(--layout-max-width);
+    max-width: 800px;
   }
   .parent-page__portfolio-projects .notion-root > .notion-column-list > .notion-column:nth-child(2), .parent-page__portfolio .notion-root > .notion-column-list > .notion-column:nth-child(2) {
     margin-left: 0 !important;
