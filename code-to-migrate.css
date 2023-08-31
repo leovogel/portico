@@ -1,0 +1,158 @@
+/* IMAGES */
+.notion-image,
+.notion-image img,
+.notion-collection-card__cover img {
+  border-radius: 4px !important; }
+
+/* ------------------------------------------ */
+.notion-header__cover.no-cover {
+  display: none; }
+
+.notion-image,
+.notion-image img {
+  transition: all .2s ease !important;
+  box-shadow: none !important;
+  opacity: 0.9 !important; }
+
+@media only screen and (max-width: 42.5em) {
+  /* CSS rules here */
+  .notion-image,
+  .notion-image img {
+    margin-bottom: -16px; } }
+#block-3b78afa02e4e4471b27dab341c274ecc .notion-image,
+#block-3b78afa02e4e4471b27dab341c274ecc .notion-image img {
+  transition: all .2s ease !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  margin-bottom: 2rem; }
+
+#block-3b78afa02e4e4471b27dab341c274ecc .notion-image:hover,
+#block-3b78afa02e4e4471b27dab341c274ecc .notion-image img:hover {
+  transform: scale(1) !important; }
+
+.notion-header__title-wrapper,
+notion-header__icon-wrapper .has-icon-image,
+.notion-header__title {
+  display: none !important; }
+
+.notion-callout.bg-purple-light {
+  background-color: transparent !important;
+  border: none;
+  padding: 0px; }
+
+.notion-callout.bg-purple-light .notion-callout__icon {
+  display: none; }
+
+.notion-callout.bg-purple-light p {
+  margin: 0px; }
+
+.notion-callout .notion-divider {
+  border-bottom: 1px solid lightgray;
+  max-width: 200px;
+  margin-top: 32px;
+  margin-bottom: 16px; }
+
+.notion-quote.bg-yellow > .notion-semantic-string, .notion-quote.bg-gray > .notion-semantic-string {
+  display: none; }
+
+.notion-header__icon-wrapper {
+  display: none !important; }
+
+.super-navbar__cta {
+  border-radius: 4px; }
+
+.super-navbar {
+  border-bottom: 1px solid #f2f2f2;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); }
+
+/* Turn a single blue callout block into a button (Entire block is clickable) */
+.notion-callout {
+  position: relative !important; }
+
+.notion-callout.bg-blue-light {
+  background: rgba(45, 170, 219, 0) !important;
+  border: 1px transparent;
+  border-radius: 6px; }
+
+.notion-callout.bg-blue-light strong {
+  color: var(--color-text-blue);
+  text-decoration: underline; }
+
+.notion-callout.bg-blue-light:hover {
+  background: rgba(0, 159, 219, 0.05) !important; }
+
+.notion-callout.bg-blue-light .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link,
+.notion-callout.bg-blue-light .notion-link {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  padding: 15px !important;
+  padding-left: 50px !important;
+  border: none !important;
+  color: rgba(255, 255, 255, 0) !important; }
+
+/* Turn a single blue callout block into a button (Entire block is clickable) */
+@media only screen and (max-width: 1059px) {
+  #block-81c0ad6854c6427d9f84a5098f7c23c7 .notion-column {
+    width: 100% !important;
+    margin-inline-start: initial !important; } }
+.highlighted-background.bg-blue {
+  color: white;
+  background: #019eda; }
+
+.notion-semantic-string .link {
+  border-bottom-color: var(--color-text-blue); }
+
+.notion-semantic-string .link, .link {
+  color: var(--color-text-blue) !important; }
+
+html, body {
+  scroll-behavior: smooth; }
+
+body .uwy.userway_p5 .uai {
+  bottom: 16px !important;
+  left: 16px !important; }
+
+.notion-text.bg-gray {
+  margin-bottom: initial;
+  background: initial;
+  font-size: 1.3rem; }
+
+.notion-text__content {
+  padding: 0px; }
+
+.notion-text.bg-blue {
+  background-color: initial; }
+
+.notion-text.bg-blue .notion-link {
+  padding: 8px 12px;
+  border: 1px solid var(--color-text-blue);
+  border-radius: 4px;
+  margin-top: 4px !important;
+  display: inline-block; }
+
+.notion-text.bg-blue .notion-link:hover {
+  background-color: #009fdb !important;
+  color: white !important; }
+
+.notion-text.bg-blue .notion-link:hover .color-blue {
+  color: white !important; }
+
+.notion-heading {
+  padding: initial; }
+
+.super-navbar__cta {
+  padding: 12px; }
+
+.notion-header__cover.no-cover {
+  height: 100px; }
+
+/*   Code to Migrate Above   */
+
+/*# sourceMappingURL=code-to-migrate.css.map */
