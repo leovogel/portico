@@ -38,3 +38,18 @@ p {
   font-size: 1.15rem !important;
   line-height: 1.7;
 }
+
+h1.notion-heading.bg-gray{
+  font-weight: 700;
+  padding: 2px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-size: var(--title-size);
+  line-height: var(--title-size);
+  min-height: 48px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-align: var(--header-title-align);
+  display: var(--header-display);
+  background-color: transparent;
+}
