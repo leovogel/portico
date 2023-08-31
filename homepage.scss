@@ -2,7 +2,7 @@
 
 /*     Hide Project Icon & Quote Title    */
 .notion-quote.bg-yellow>.notion-semantic-string, .notion-quote.bg-gray>.notion-semantic-string, .notion-property__title__icon-wrapper{
-  display: none;
+  display: none !important;
 }
 
 
@@ -11,11 +11,11 @@
 /* FEATURED */
 .notion-quote.bg-yellow {
   .notion-collection-card{
-    box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.4);
+    box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.4) !important;
   }
   
   .notion-collection-card:hover{
-    box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.55);
+    box-shadow: 0 0 32px 0 rgba(100, 166, 200, 0.55) !important;
   }
   
 }
@@ -35,16 +35,16 @@
 .notion-quote {
   .notion-collection-card{
     width: 100%;
-    box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06);
-    padding: 24px;
-    transition: all .2s ease;
+    box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06) !important;
+    padding: 24px !important;
+    transition: all .2s ease !important;
   }
   
   .notion-collection-card:hover {
-      transform: scale(1.02);
-      background: none;
-      opacity: 1;
-      box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .1);
+      transform: scale(1.02) !important;
+      background: none !important;
+      opacity: 1 !important;
+      box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .1)!important;
   }
   
   .notion-collection-card img{
@@ -91,19 +91,19 @@
 }
 
  .notion-quote .notion-collection-card:hover .notion-pill{
-  background-color: var(--brand-color-primary);
-  color: white ;
+  background-color: var(--brand-color-primary) !important;
+  color: white  !important;
 }
 
 /*     Case Formatting    */
 
 .notion-collection-card{
   width: 100%;
-  box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06);
-  padding: 24px;
+  box-shadow: 0px 0px 32px 0 rgba(0, 0, 7, .06) !important;
+  padding: 24px !important;
   background: white;
   border: 1px solid rgb(237, 237, 237);
-  border-radius: 8px;
+  border-radius: 8px !important;
   
   img{
     border-radius: 8px;
@@ -138,14 +138,14 @@
   
   .notion-quote.bg-yellow .notion-collection-card .notion-property__title,  .notion-quote.bg-gray .notion-collection-card .notion-property__title{
     grid-area: 1 / 2 / 2 / 3;
-    padding-top: 0px;
+    padding-top: 0px !important;
   }
   
   .notion-collection-card .notion-property__title 
   .notion-semantic-string {
     font-size: var(--heading3-size);
-    font-weight: 600;
-    color: black;
+    font-weight: 600 !important;
+    color: black !important;
   }
   
   .notion-quote.bg-yellow .notion-collection-card .notion-collection-card__content{
@@ -167,11 +167,10 @@
   }
   
   .notion-quote .notion-collection-card__property-list .notion-collection-card__property:last-of-type .notion-semantic-string{
-    text-align: center;
+    text-align: center !important;
   }
 }
 
-.gallery .notion-collection-card__property 
-.notion-semantic-string {
-  white-space: initial;
+.gallery .notion-collection-card__property .notion-semantic-string {
+  white-space: initial !important;
 }
