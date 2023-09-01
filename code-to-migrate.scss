@@ -84,17 +84,6 @@ notion-header__icon-wrapper .has-icon-image,
   display: none !important;
 }
 
-.super-navbar__cta{
-  border-radius: 4px;
-}
-
-.super-navbar{
-  border-bottom: 1px solid #f2f2f2;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
 /* Turn a single blue callout block into a button (Entire block is clickable) */
 
 .notion-callout { 
@@ -199,10 +188,6 @@ body .uwy.userway_p5 .uai{
 
 .notion-heading{
   padding: initial;
-}
-
-.super-navbar__cta{
-  padding: 12px;
 }
 
 

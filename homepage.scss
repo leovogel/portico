@@ -132,17 +132,24 @@
   
   
   
-  .notion-quote.bg-yellow .notion-collection-card .notion-collection-card__cover, .notion-quote.bg-gray .notion-collection-card .notion-collection-card__cover{
-    grid-area: 1 / 1 / 3 / 2;
+  .notion-quote.bg-yellow, .notion-quote.bg-gray {
+    
+    .notion-collection-card {
+      
+      .notion-collection-card__cover{
+        grid-area: 1 / 1 / 3 / 2;
+      }
+      
+      .notion-property__title{
+        grid-area: 1 / 2 / 2 / 3;
+        padding-top: 0px !important;
+      }
+      
+    }
   }
   
-  .notion-quote.bg-yellow .notion-collection-card .notion-property__title,  .notion-quote.bg-gray .notion-collection-card .notion-property__title{
-    grid-area: 1 / 2 / 2 / 3;
-    padding-top: 0px !important;
-  }
   
-  .notion-collection-card .notion-property__title 
-  .notion-semantic-string {
+  .notion-collection-card .notion-property__title .notion-semantic-string {
     font-size: var(--heading3-size);
     font-weight: 600 !important;
     color: black !important;
