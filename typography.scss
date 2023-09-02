@@ -1,4 +1,8 @@
 /*Typography*/
+.super-navbar__item.active {
+  font-weight: bold !important;
+}
+
 h1, h2, h3{
   line-height: 1.45;
   font-weight: normal !important;
@@ -25,6 +29,10 @@ body {
 
 h1.notion-heading{
     font-weight: 500 !important;
+}
+
+.page__index h3.notion-heading:not(.toggle){
+  margin-top: 0px;
 }
 
 @media only screen and (min-width:720px) { 
