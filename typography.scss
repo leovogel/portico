@@ -1,4 +1,8 @@
 /*Typography*/
+.notion-text{
+  padding: 8px 0px;
+}
+
 .super-navbar__item.active {
   font-weight: bold !important;
 }
@@ -6,10 +10,6 @@
 h1, h2, h3{
   line-height: 1.45;
   font-weight: normal !important;
-}
-
-.notion-text__content .notion-semantic-string{
-  line-height: 1.7;
 }
 
 .notion-semantic-string{
@@ -43,7 +43,11 @@ h1.notion-heading{
 }
 
 p {
-  font-size: 1.15rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1.7;
+}
+
+.notion-text__content .notion-semantic-string{
   line-height: 1.7;
 }
 

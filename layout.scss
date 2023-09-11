@@ -31,10 +31,10 @@
     margin-top: 0px;
   }
   
-  .super-content {
-    padding: 0px;
-    width: 85%;
-  }
+/*.super-content {*/
+/*  padding: 0px;*/
+/*  width: 85%;*/
+/*}*/
 }
 
 @media (min-width:769px){
@@ -61,7 +61,7 @@
         margin: 0 auto !important;
         z-index: 10 !important;
         max-width: var(--layout-max-width);
-        max-width: 700px !important;
+        max-width: 800px !important;
     }
     
     .notion-root>.notion-column-list>.notion-column:nth-child(2){

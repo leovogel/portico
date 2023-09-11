@@ -7,7 +7,8 @@
   
   .notion-callout.bg-green-light{
     background-color: transparent;
-    border-color; var(--color-bg-gray)
+    border-color: var(--color-bg-gray);
+    border-color: transparent;
   }
   
   .notion-callout.bg-green-light .notion-callout__icon{

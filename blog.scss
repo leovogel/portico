@@ -1,0 +1,153 @@
+/**/
+/*p > .notion-semantic-string {*/
+/*line-height: 1.6 !important;*/
+/*}*/
+/*.notion-heading,*/
+/*.notion-collection__header {*/
+/*font-weight: 600 !important;*/
+/*}*/
+/*.notion-heading .notion-semantic-string {*/
+/*line-height: 1.4 !important;*/
+/*}*/
+/*.notion-property__title .notion-semantic-string {*/
+/*font-weight: normal !important;*/
+/*}*/
+/*.notion-root h1 {*/
+/*margin: 2rem 0 5rem !important;*/
+/*padding: 0 !important;*/
+/*}*/
+/*.notion-collection-table__cell.title > a:hover .notion-semantic-string > span {*/
+/*border-bottom: 1px solid #888888 !important;*/
+/*}*/
+/*.notion-property__title .notion-property__title__icon-wrapper,*/
+/*a.notion-page {*/
+/*display: none !important;*/
+/*}*/
+
+.notion-collection-list {
+  border-top: none !important;
+  padding: 0 !important;
+  margin: 0.5rem 0 0 0 !important;
+}
+.notion-collection-list__item,
+details.notion-toggle {
+  padding: 1.5rem !important;
+  background-color: #f9f9f9 !important;
+  margin: 0 0 0.75rem 0 !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+  flex-wrap: wrap;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in !important;
+}
+.notion-collection-list__item:hover,
+details.notion-toggle:hover {
+  background-color: rgba(0, 159, 219, 0.05) !important;
+}
+.notion-collection-list__item
+  .notion-property__title
+  .notion-semantic-string
+  > span {
+  border-bottom: none !important;
+}
+
+/*.notion-pill {*/
+/*background-color: #e7e7e7 !important;*/
+/*padding: 4px 8px !important;*/
+/*color: #4e4e4e !important;*/
+/*}*/
+/*.notion-toggle__content {*/
+/*margin-top: 1rem !important;*/
+/*}*/
+/*.notion-toggle__summary:before {*/
+/*background: whitesmoke !important;*/
+/*}*/
+/*article.notion-root {*/
+/*padding-top: 3rem !important;*/
+/*}*/
+/*article.notion-root p {*/
+/*margin-bottom: 1rem !important;*/
+/*}*/
+/*article h1.notion-heading {*/
+/*margin-bottom: 1.5rem !important;*/
+/*}*/
+/*article h2.notion-heading,*/
+/*article h3.notion-heading,*/
+/*article h4.notion-heading {*/
+/*margin-bottom: 0.5rem !important;*/
+/*}*/
+/*.notion-divider {*/
+/*margin: 1.5rem 0 !important;*/
+/*border-color: #dddddd !important;*/
+/*}*/
+/*ul.notion-bulleted-list {*/
+/*list-style: none !important;*/
+/*list-style-position: outside !important;*/
+/*margin: 0 0 1rem 1.5rem !important;*/
+/*padding: 0 !important;*/
+/*}*/
+/*ul.notion-bulleted-list li:before {*/
+/*content: "–" !important;*/
+/*display: inline-block !important;*/
+/*text-indent: calc(1rem * -1.25) !important;*/
+/*}*/
+/*ol.notion-numbered-list {*/
+/*margin-bottom: 1rem !important;*/
+/*}*/
+/*.notion-callout {*/
+/*padding: 0 !important;*/
+/*margin: 2rem 0 !important;*/
+/*}*/
+/*.notion-callout.bg-gray-light {*/
+/*background: transparent !important;*/
+/*}*/
+/*.notion-callout__icon {*/
+/*display: none !important;*/
+/*}*/
+/*.notion-callout.border {*/
+/*border: 0 !important;*/
+/*}*/
+/*.notion-callout__content {*/
+/*margin: 0 !important;*/
+/*padding: 1.5rem 1rem 1.5rem 0 !important;*/
+/*}*/
+/*.notion-callout a.link {*/
+/*border-bottom: none !important;*/
+/*background-color: white !important;*/
+/*padding: 1.25rem 2rem !important;*/
+/*border: 1px solid white !important;*/
+/*border-radius: 0.75rem !important;*/
+/*color: #444444 !important;*/
+/*opacity: 1 !important;*/
+/*transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out,*/
+/*  color 0.2s ease-in-out !important;*/
+/*}*/
+/*.notion-callout a.link:hover {*/
+/*background-color: #222222 !important;*/
+/*border: 1px solid #222222 !important;*/
+/*color: white !important;*/
+/*opacity: 1 !important;*/
+/*}*/
+/*.notion-callout a.link::after {*/
+/*content: "\2192" !important;*/
+/*display: inline-block !important;*/
+/*transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out !important;*/
+/*opacity: 1 !important;*/
+/*padding-left: 0.25rem !important;*/
+/*}*/
+/*.notion-callout a.link:hover::after {*/
+/*opacity: 1 !important;*/
+/*transform: translateX(0.25rem) !important;*/
+/*}*/
+/*.notion-image {*/
+/*margin: 1.5rem 0 !important;*/
+/*}*/
+/*.super-content {*/
+/*padding-bottom: 15vh !important;*/
+/*}*/
+
+/* Mobile  */
+/*@media screen and (max-width: 600px) {*/
+/*.super-navbar__menu {*/
+/*  background-color: whitesmoke !important;*/
+/*}*/
+/*}*/
