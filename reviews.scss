@@ -1,0 +1,58 @@
+/* REVIEWS */
+
+/*.notion-callout.bg-yellow-light > .notion-callout__content > .notion-semantic-string{*/
+/*	display: none;*/
+/*}*/
+
+.notion-callout.bg-yellow-light{
+	background-color: #f9f9f9;
+	border-color: transparent !important;
+	border-radius: 8px;
+	margin-bottom: 24px;
+	
+	.notion-image, .notion-image img, .notion-collection-card__cover img, .notion-image.normal img{
+		border-radius: 100px !important;
+		filter: grayscale(1);
+	}
+	
+	p.notion-text__content{
+		font-size: .9rem !important;
+	}
+	
+	.notion-image image{
+		border-radius: 100px !important;
+	}
+	
+	.notion-callout__icon{
+		display: none;
+	}
+	
+	.notion-column-list .notion-column{
+		max-width: 64px;
+	}
+	
+	.notion-text{
+		padding: 0px !important;
+		margin-bottom: 12px;
+	}
+	
+	.notion-text:nth-last-child(1), .notion-text:nth-last-child(2), .notion-text:nth-last-child(3){
+		margin-bottom: 0px !important;
+	}
+	
+	strong{
+		margin-top: 8px;
+		display: inline-block;
+	}
+	
+	code{
+		color: var(--color-text-default);
+		background-color: var(--color-bg-gray);
+		margin-top: -4px;
+		display: inline-block;
+		padding: .2em .6em;
+		font-weight: 500;
+		border-radius: 2px;
+		font-size: .75rem;
+	}
+}

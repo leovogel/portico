@@ -35,17 +35,6 @@ notion-header__icon-wrapper .has-icon-image,
 .notion-header__title {
   display: none !important; }
 
-.notion-callout.bg-purple-light {
-  background-color: transparent !important;
-  border: none;
-  padding: 0px; }
-
-.notion-callout.bg-purple-light .notion-callout__icon {
-  display: none; }
-
-.notion-callout.bg-purple-light p {
-  margin: 0px; }
-
 .notion-callout .notion-divider {
   border-bottom: 1px solid lightgray;
   max-width: 200px;
