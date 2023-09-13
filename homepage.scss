@@ -296,6 +296,11 @@ h2.color-gray{
     filter: invert(100%);
   }
   
+  h2{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
   h2, .notion-image{
     display: flex;
     align-items: center;

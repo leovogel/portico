@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Version 0.51.4 */
+/* Version 0.51.5 */
 /* Progress bar */
 .notion-equation span {
   display: none;
@@ -260,6 +260,10 @@ h1.notion-heading {
 @media only screen and (max-width: 720px) {
   h1.notion-heading {
     font-size: 1.5rem !important;
+  }
+
+  h3.notion-heading {
+    font-size: 1.15rem !important;
   }
 }
 p {
@@ -1206,6 +1210,10 @@ h2.color-gray {
 }
 .notion-callout.bg-purple-light img {
   filter: invert(100%);
+}
+.notion-callout.bg-purple-light h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
 }
 .notion-callout.bg-purple-light h2, .notion-callout.bg-purple-light .notion-image {
   display: flex;
